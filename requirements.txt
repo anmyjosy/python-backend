@@ -1,2 +1,9 @@
 Flask
-Gunicorn
+flask-cors
+numpy
+matplotlib
+statsmodels
+pandas
+gdown
+plotly
+gunicorn
