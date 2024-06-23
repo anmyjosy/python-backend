@@ -31,7 +31,7 @@ const CPI = () => {
     setSelectedAttribute(event.target.value);
   };
   useEffect(() => {
-    axios.get('https://python-backend-nine.vercel.app/verify',{ withCredentials: true })
+    axios.get('https://python-backend-j0aw.onrender.com/verify',{ withCredentials: true })
       .then(res => {
         if (!res.data.status) {
           navigate('/login');
